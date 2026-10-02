@@ -118,5 +118,13 @@
   {
     "query": "我是一个独立执行对话，任务完成后想给另一个无关对话发消息，没有启用project-chat-orchestrator",
     "should_trigger": false
+  },
+  {
+    "query": "project-chat-orchestrator编排模式active，E01和E02分工已确认。继续保持运行监督，不启用定时任务，增量等待结果，有新结果及时审核并安排下一步或返工",
+    "should_trigger": true
+  },
+  {
+    "query": "没有多对话编排计划或编排模式锁，请当前对话保持运行等待本地构建完成，不启用定时任务",
+    "should_trigger": false
   }
 ]
