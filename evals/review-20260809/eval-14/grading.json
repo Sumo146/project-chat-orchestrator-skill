@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {
+      "text": "用户明确要求时允许持续等待并说明占用影响",
+      "passed": true,
+      "evidence": "SKILL.md规定持续等待必须由用户明确选择，并提醒等待期间主控运行会被占用"
+    }
+  ],
+  "summary": {"passed": 1, "failed": 0, "total": 1, "pass_rate": 1.0}
+}

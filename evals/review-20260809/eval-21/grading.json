@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {
+      "text": "子对话收到首次职责外要求时必须单独确认后再执行",
+      "passed": true,
+      "evidence": "SKILL.md要求先说明职责、路径、依赖、冲突和验收变化，首次要求不同时视为确认"
+    }
+  ],
+  "summary": {"passed": 1, "failed": 0, "total": 1, "pass_rate": 1.0}
+}

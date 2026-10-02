@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {
+      "text": "D01允许用户参与，默认研究方案并把结论返回主控",
+      "passed": true,
+      "evidence": "SKILL.md的推荐对话结构明确D01职责、用户参与方式和方案结论返回主控的要求"
+    }
+  ],
+  "summary": {"passed": 1, "failed": 0, "total": 1, "pass_rate": 1.0}
+}

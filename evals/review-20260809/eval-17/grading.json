@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {
+      "text": "简单项目不强制创建D01或R01",
+      "passed": true,
+      "evidence": "SKILL.md推荐从最少够用的对话开始，D01和R01均为按需角色，数量与角色由用户最终决定"
+    }
+  ],
+  "summary": {"passed": 1, "failed": 0, "total": 1, "pass_rate": 1.0}
+}

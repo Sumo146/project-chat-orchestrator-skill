@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {
+      "text": "分发后默认只做一次即时或短时检查并结束主控运行",
+      "passed": true,
+      "evidence": "SKILL.md的确认续接和第五步均规定即时检查、记录状态并把主控交还用户"
+    }
+  ],
+  "summary": {"passed": 1, "failed": 0, "total": 1, "pass_rate": 1.0}
+}

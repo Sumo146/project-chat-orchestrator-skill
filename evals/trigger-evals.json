@@ -1,0 +1,122 @@
+[
+  {
+    "query": "调用project-chat-orchestrator，把已经确认的ERP改造方案拆成几个普通项目对话执行，我只在这个主对话看汇总",
+    "should_trigger": true
+  },
+  {
+    "query": "方案确认了，你作为主控再开几个侧边栏对话分别写前端、后端和测试，模型先给我建议",
+    "should_trigger": true
+  },
+  {
+    "query": "我只想跟当前对话沟通，你创建其他普通对话去执行这些任务并回来汇报，别用subagent",
+    "should_trigger": true
+  },
+  {
+    "query": "按刚才定下来的开发计划开两个执行聊天，一个做数据层，一个做接口层，先列配置让我统一确认",
+    "should_trigger": true
+  },
+  {
+    "query": "这个对话当主控，帮我在同一个Project下面新建E01、E02两个任务对话，目录继续共用当前项目",
+    "should_trigger": true
+  },
+  {
+    "query": "用项目对话编排流程执行，子对话的模型都用gpt-5.6-sol，推理等级由你逐项建议",
+    "should_trigger": true
+  },
+  {
+    "query": "现在可以执行了，开普通聊天分发任务，所有结果回到主聊天，我不直接管执行聊天",
+    "should_trigger": true
+  },
+  {
+    "query": "让当前聊天统一管理另外3个任务聊天，名字用AMZ-E01这种格式，完成后不要归档",
+    "should_trigger": true
+  },
+  {
+    "query": "代码、接口文档和样本数据分散在三个路径，方案确认了，请主对话创建几个普通执行对话，按各自任务分配路径并统一汇总",
+    "should_trigger": true
+  },
+  {
+    "query": "创建几个执行对话做方案，每个对话模型我自己选，你先一次性把任务和设置列出来",
+    "should_trigger": true
+  },
+  {
+    "query": "上条消息是project-chat-orchestrator执行计划，状态为等待确认，E01和E02的任务及threadId都已写明。可以，开始执行",
+    "should_trigger": true
+  },
+  {
+    "query": "按project-chat-orchestrator开几个普通执行对话，分发后不要一直等待，主控留给我继续讨论下一阶段",
+    "should_trigger": true
+  },
+  {
+    "query": "当前主对话的project-chat-orchestrator编排模式为active，E01和E02固定分工已记录。继续",
+    "should_trigger": true
+  },
+  {
+    "query": "协调记录显示编排模式锁仍启用，主控实施权限为false。开始下一步",
+    "should_trigger": true
+  },
+  {
+    "query": "project-chat-orchestrator编排模式仍为active，我现在在主控里要求查看E01和E02进度",
+    "should_trigger": true
+  },
+  {
+    "query": "这个产品还只是想法，先讨论目标用户、功能和技术架构",
+    "should_trigger": false
+  },
+  {
+    "query": "把这三个模块并行处理一下，完成后告诉我结果",
+    "should_trigger": false
+  },
+  {
+    "query": "请用Subagents并行检查前端、接口和数据库代码",
+    "should_trigger": false
+  },
+  {
+    "query": "蜂群模式开发这个大型项目，让多个agent自行认领任务",
+    "should_trigger": false
+  },
+  {
+    "query": "Codex桌面端的普通对话和Subagents有什么区别，侧边栏怎么显示",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我修改src/api/orders.ts并补测试，不需要新开对话",
+    "should_trigger": false
+  },
+  {
+    "query": "给这个项目写一份执行计划，等我看完再决定怎么做",
+    "should_trigger": false
+  },
+  {
+    "query": "我想新开一个完全独立的项目对话，项目目录也换成另一个仓库",
+    "should_trigger": false
+  },
+  {
+    "query": "把当前对话归档，再新建一个对话继续这个项目",
+    "should_trigger": false
+  },
+  {
+    "query": "看看现在有哪些任务对话在运行，只汇报状态，不要创建新的",
+    "should_trigger": false
+  },
+  {
+    "query": "我们刚讨论的是当前对话自己修改一个按钮颜色，没有创建其他对话的计划。可以，开始执行",
+    "should_trigger": false
+  },
+  {
+    "query": "我只想单独新开一个讨论架构的普通对话，不需要当前对话管理它，也不需要分发执行任务",
+    "should_trigger": false
+  },
+  {
+    "query": "当前没有调用project-chat-orchestrator，没有待确认计划，也没有编排模式锁。继续",
+    "should_trigger": false
+  },
+  {
+    "query": "我已经明确退出project-chat-orchestrator，协调记录为inactive。继续由当前对话修改这个按钮",
+    "should_trigger": false
+  },
+  {
+    "query": "我是一个独立执行对话，任务完成后想给另一个无关对话发消息，没有启用project-chat-orchestrator",
+    "should_trigger": false
+  }
+]

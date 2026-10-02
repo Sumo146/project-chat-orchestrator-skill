@@ -1,0 +1,10 @@
+{
+  "expectations": [
+    {
+      "text": "用户可以调整D01职责，但不能解除子对话创建下层对话的硬限制",
+      "passed": true,
+      "evidence": "SKILL.md允许用户确认后调整职责，同时保留禁止创建普通对话、启动Subagents和继续分发的边界"
+    }
+  ],
+  "summary": {"passed": 1, "failed": 0, "total": 1, "pass_rate": 1.0}
+}
